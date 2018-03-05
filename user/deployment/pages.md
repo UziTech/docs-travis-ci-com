@@ -56,7 +56,7 @@ or via [encrypted variables in
 * `name`: Optional, committer, defaults to `Deployment Bot`
 * `committer-from-gh`: Optional, defaults to `false`. Allows to use token's
   owner name and email for commit. Overrides `email` and `name` options.
-* `allow-empty-commit`: Optional, defaults to `false`. Enabled if only
+* `allow-empty-commit`: Optional, defaults to `false`. Enabled only if
   `keep-history` is `true`.
 * `github-url`: Optional, the URL of the self-hosted GitHub enterprise, defaults to `github.com`
 * `verbose`: Optional, be verbose about internal steps, defaults to `false`.
